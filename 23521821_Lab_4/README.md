@@ -24,44 +24,54 @@
 * **Lưu ý:** Do file trọng số rất nặng, chúng **không** được lưu trên Git. Vui lòng xem hướng dẫn tải ở **Bước 4** dưới đây.
 
 ### 2. Hướng dẫn
-1.  **Clone repository này:**
-    ```bash
-    git clone [https://github.com/bavuong2005/CS406.Q11.git](https://github.com/bavuong2005/CS406.Q11.git)
-    ```
 
-2.  **Di chuyển vào thư mục Lab 4:**
-    (Các bước tiếp theo phải được thực hiện từ bên trong thư mục của Lab 4)
-    ```bash
-    cd CS406.Q11/23521821_Lab_4
-    ```
+1.  **Clone repository này:**
 
-3.  **Tạo và kích hoạt môi trường ảo:**
-    ```bash
-    python -m venv myenv
-    # Trên Windows
-    myenv\Scripts\activate
-    # Trên macOS/Linux
-    source myenv/bin/activate
-    ```
+    ```bash
+    git clone https://github.com/bavuong2005/CS406.Q11.git
+    ```
 
-4.  **Cài đặt các thư viện cần thiết:**
-    ```bash
-    pip install -r requirements.txt
-    ```
+2.  **Di chuyển vào thư mục Lab 4:**
+    (Các bước tiếp theo phải được thực hiện từ bên trong thư mục của Lab 4)
 
-5.  **Tải và thêm file trọng số (BẮT BUỘC):**
-    Vui lòng tải 3 file trọng số (`.weights.h5`) từ output của Kaggle Notebook tại link sau:
+    ```bash
+    cd CS406.Q11/23521821_Lab_4
+    ```
 
-    **Link tải trọng số: [Kaggle Output - Model Weights](https://www.kaggle.com/code/vuong2901/cs406-lab4/output?scriptVersionId=272598900)**
+3.  **Tạo và kích hoạt môi trường ảo:**
 
-    Sau khi tải về:
-    a. Tạo một thư mục tên là `models` (nếu chưa có).
-    b. Sao chép 3 file trọng số vào thư mục `models`.
-    
-6.  **Chạy ứng dụng Streamlit:**
-    ```bash
-    streamlit run app.py
-    ```
+    ```bash
+    python -m venv myenv
+    
+    # Trên Windows
+    myenv\Scripts\activate
+    
+    # Trên macOS/Linux
+    source myenv/bin/activate
+    ```
+
+4.  **Cài đặt các thư viện cần thiết:**
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+5.  **Tải và thêm file trọng số (BẮT BUỘC):**
+
+    Vui lòng tải 3 file trọng số (`.weights.h5`) từ output của Kaggle Notebook tại link sau:
+
+    **Link tải trọng số: [Kaggle Output - Model Weights](https://www.kaggle.com/code/vuong2901/cs406-lab4/output?scriptVersionId=272598900)**
+
+    Sau khi tải về:
+    a. Tạo một thư mục tên là `models` (nếu chưa có).
+    b. Sao chép 3 file trọng số vào thư mục `models`.
+
+6.  **Chạy ứng dụng Streamlit:**
+
+    ```bash
+    streamlit run app.py
+    ```
+
     Trình duyệt sẽ tự động mở lên địa chỉ `http://localhost:8501`.
 
 ## 📂 Cấu trúc Thư mục
