@@ -63,7 +63,9 @@
     **Link tải trọng số: [Kaggle Output - Model Weights](https://www.kaggle.com/code/vuong2901/cs406-lab4/output?scriptVersionId=272598900)**
 
     Sau khi tải về:
+
     a. Tạo một thư mục tên là `models` (nếu chưa có).
+    
     b. Sao chép 3 file trọng số vào thư mục `models`.
 
 6.  **Chạy ứng dụng Streamlit:**
