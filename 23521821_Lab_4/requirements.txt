@@ -1,0 +1,7 @@
+streamlit
+tensorflow
+vit-keras
+pandas
+numpy
+opencv-python-headless
+Pillow
