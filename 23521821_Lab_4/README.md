@@ -16,7 +16,7 @@
 
 ## Demo
 
-![](https://raw.githubusercontent.com/bavuong2005/CS406.Q11/refs/heads/main/23521821_Lab_4/demo.gif)
+<img src="https://raw.githubusercontent.com/bavuong2005/CS406.Q11/refs/heads/main/23521821_Lab_4/demo.gif" alt="Demo"></img>
 
 ## Cài đặt và Chạy
 
