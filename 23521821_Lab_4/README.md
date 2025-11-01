@@ -1,11 +1,9 @@
-<!-- Banner -->
 <p align="center">
-  <a href="https://www.uit.edu.vn/" title="Trường Đại học Công nghệ Thông tin" style="border: none;">
-    <img src="https://i.imgur.com/WmMnSRt.png" alt="Trường Đại học Công nghệ Thông tin | University of Information Technology">
-  </a>
+  <a href="https://www.uit.edu.vn/" title="Trường Đại học Công nghệ Thông tin" style="border: none;">
+    <img src="https://i.imgur.com/WmMnSRt.png" alt="Trường Đại học Công nghệ Thông tin | University of Information Technology">
+  </a>
 </p>
 
-<!-- Title -->
 <h1 align="center"><b>CS406.Q11 - XỬ LÝ ẢNH VÀ ỨNG DỤNG</b></h1>
 <h1 align="center"><b>IMAGE PROCESSING AND APPLICATIONS</b></h1>
 <h2 align="center"><b>LAB 04</b></h2>
@@ -23,43 +21,47 @@
 ### 1. Yêu cầu
 * Python 3.8+
 * Các file trọng số (`.h5`) đã huấn luyện của 3 mô hình.
+* **Lưu ý:** Do file trọng số rất nặng, chúng **không** được lưu trên Git. Vui lòng xem hướng dẫn tải ở **Bước 4** dưới đây.
 
 ### 2. Hướng dẫn
-1.  **Clone repository này:**
-    ```bash
-    git clone [URL_REPO_CUA_BAN]
-    cd [TEN_THU_MUC_REPO]
-    ```
+1.  **Clone repository này:**
+    ```bash
+    git clone [https://github.com/bavuong2005/CS406.Q11.git](https://github.com/bavuong2005/CS406.Q11.git)
+    ```
 
-2.  **Tạo và kích hoạt môi trường ảo:**
-    ```bash
-    python -m venv myenv
-    # Trên Windows
-    myenv\Scripts\activate
-    # Trên macOS/Linux
-    source myenv/bin/activate
-    ```
+2.  **Di chuyển vào thư mục Lab 4:**
+    (Các bước tiếp theo phải được thực hiện từ bên trong thư mục của Lab 4)
+    ```bash
+    cd CS406.Q11/23521821_Lab_4
+    ```
 
-3.  **Cài đặt các thư viện cần thiết:**
-    ```bash
-    pip install -r requirements.txt
-    ```
+3.  **Tạo và kích hoạt môi trường ảo:**
+    ```bash
+    python -m venv myenv
+    # Trên Windows
+    myenv\Scripts\activate
+    # Trên macOS/Linux
+    source myenv/bin/activate
+    ```
 
-4.  **Thêm file trọng số (Weights):**
-    Tạo một thư mục tên là `models` và sao chép 3 file trọng số (`.h5` hoặc `.weights.h5`) của bạn vào đó.
-    ```
-    streamlit-image-demo/
-    └── models/
-        ├── vgg16.weights.h5
-        ├── resnet50.weights.h5
-        └── vit_b16.weights.h5
-    ```
-    *Lưu ý: Nếu tên file của bạn khác, hãy cập nhật lại trong file `utils.py`.*
+4.  **Cài đặt các thư viện cần thiết:**
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-5.  **Chạy ứng dụng Streamlit:**
-    ```bash
-    streamlit run app.py
-    ```
+5.  **Tải và thêm file trọng số (BẮT BUỘC):**
+    Vui lòng tải 3 file trọng số (`.weights.h5`) từ output của Kaggle Notebook tại link sau:
+
+    **Link tải trọng số: [Kaggle Output - Model Weights](https://www.kaggle.com/code/vuong2901/cs406-lab4/output?scriptVersionId=272598900)**
+
+    Sau khi tải về:
+    a. Tạo một thư mục tên là `models` (nếu chưa có).
+    b. Sao chép 3 file trọng số vào thư mục `models`.
+    
+6.  **Chạy ứng dụng Streamlit:**
+    ```bash
+    streamlit run app.py
+    ```
     Trình duyệt sẽ tự động mở lên địa chỉ `http://localhost:8501`.
 
 ## 📂 Cấu trúc Thư mục
