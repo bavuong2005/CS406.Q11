@@ -8,6 +8,7 @@ from vit_keras import vit
 from PIL import Image
 import numpy as np
 import streamlit as st # Thêm st để dùng @st.cache_resource
+import io
 
 # Định nghĩa Hằng số
 IMG_SHAPE = (224, 224, 3)
@@ -113,7 +114,7 @@ def predict_image(image_bytes, model_vgg, model_resnet, model_vit):
     """
     
     # Đọc ảnh từ bytes
-    img = Image.open(image_bytes).convert('RGB')
+    img = Image.open(io.BytesIO(image_bytes)).convert('RGB')
     img_np = np.array(img) # Chuyển sang numpy array
     
     # Tiền xử lý riêng biệt cho từng mô hình

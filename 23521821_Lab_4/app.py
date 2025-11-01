@@ -31,7 +31,7 @@ if uploaded_file is not None:
     
     # Hiển thị ảnh gốc
     image = Image.open(uploaded_file)
-    st.image(image, caption="Ảnh bạn đã upload.", use_column_width=True)
+    st.image(image, caption="Ảnh bạn đã upload.", use_container_width=True)
     
     # Tạo nút bấm để dự đoán
     if st.button("Bắt đầu Dự đoán"):
@@ -69,14 +69,14 @@ if uploaded_file is not None:
             st.warning(f"**Mô hình: ViT-B16**")
             st.metric(
                 label="Dự đoán", 
-                value=results["ViT_B16"]["class"].capitalize()
+                value=results["ViT-B16"]["class"].capitalize()
             )
-            st.write(f"Độ tự tin: {results['ViT_B16']['confidence']:.2f}%")
+            st.write(f"Độ tự tin: {results['ViT-B16']['confidence']:.2f}%")
             
         # Hiển thị kết luận (mô hình nào tốt nhất)
         st.subheader("Phân tích:")
-        if (results["VGG16"]["class"] == results["ResNet50"]["class"] == results["ViT_B16"]["class"]):
+        if (results["VGG16"]["class"] == results["ResNet50"]["class"] == results["ViT-B16"]["class"]):
             st.balloons()
-            st.success(f"Cả 3 mô hình đều đồng thuận dự đoán là: **{results['ViT_B16']['class'].capitalize()}**")
+            st.success(f"Cả 3 mô hình đều đồng thuận dự đoán là: **{results['ViT-B16']['class'].capitalize()}**")
         else:
             st.warning("Các mô hình cho ra kết quả khác nhau. Đây là một ca khó!")
