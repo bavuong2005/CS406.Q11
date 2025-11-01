@@ -16,8 +16,7 @@
 
 ## Demo
 
-
-*(Bạn nên chụp ảnh màn hình ứng dụng khi đang chạy và dán vào đây)*
+![](https://raw.githubusercontent.com/bavuong2005/CS406.Q11/refs/heads/main/23521821_Lab_4/demo.gif)
 
 ## Cài đặt và Chạy
 
