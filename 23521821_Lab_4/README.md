@@ -60,7 +60,7 @@
 
     Vui lòng tải 3 file trọng số (`.weights.h5`) từ output của Kaggle Notebook tại link sau:
 
-    **Link tải trọng số: [Kaggle Output - Model Weights](https://www.kaggle.com/code/vuong2901/cs406-lab4/output?scriptVersionId=272598900)**
+    **Link tải trọng số: [Kaggle Output - Model Weights](https://www.kaggle.com/code/vuong2901/cs406-lab4/output)**
 
     Sau khi tải về:
 
