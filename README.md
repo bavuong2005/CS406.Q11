@@ -15,6 +15,7 @@
 * **Lecturer:** Cáp Phạm Đình Thăng - *thangcpd@uit.edu.vn*
 
 # Lab
-* [Lab 3](22520189_Lab_03/turtorial.md) 
+* [Lab 3](23521821_Lab_3/README.md)
+* [Lab 4](23521821_Lab_4/README.md)
  
 

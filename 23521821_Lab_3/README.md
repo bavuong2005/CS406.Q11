@@ -11,6 +11,10 @@
 <h2 align="center"><b>LAB 03</b></h2>
 
 # Introduction
+* **Full name:** Mai Lê Bá Vương
+* **Student ID:** 23521821
+* **Lecturer:** Cáp Phạm Đình Thăng - *thangcpd@uit.edu.vn*
+
 In this lab, I enhanced image quality by using denoising, sharpening, and edge detection filters. 
 # Quickstart
 

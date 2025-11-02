@@ -8,6 +8,11 @@
 <h1 align="center"><b>IMAGE PROCESSING AND APPLICATIONS</b></h1>
 <h2 align="center"><b>LAB 04</b></h2>
 
+# Introduction
+* **Full name:** Mai Lê Bá Vương
+* **Student ID:** 23521821
+* **Lecturer:** Cáp Phạm Đình Thăng - *thangcpd@uit.edu.vn*
+
 # Demo Phân loại Cảnh vật (VGG, ResNet, ViT)
 
 Đây là một ứng dụng web xây dựng bằng Streamlit cho phép người dùng upload ảnh cảnh vật tự nhiên và nhận dự đoán từ ba mô hình Deep Learning khác nhau: **VGG16**, **ResNet50**, và **ViT-B16**.
